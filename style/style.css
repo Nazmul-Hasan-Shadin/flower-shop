@@ -156,7 +156,7 @@ body {
   margin: auto;
 }
 .form input {
-  padding: 10px 67px;
+  padding: 15px 67px;
   border-radius: 8px;
   background: #fff;
   color: rgba(39, 39, 39, 0.6);
@@ -175,7 +175,7 @@ body {
   color: white;
   height: 300px;
 }
-.footer-container p{
+.footer-desc{
   max-width: 625px;
   color: rgba(255, 255, 255, 0.90);
 text-align: center;
@@ -196,4 +196,14 @@ text-align: center;
 
 .flower-colorful{
   color: #E55473;
+}
+.footer-copyright{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 625px;
 }
