@@ -17,9 +17,9 @@ body {
 }
 
 .featured-description {
-  display: grid;
-
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* banner styles */
@@ -140,6 +140,30 @@ body {
   margin-bottom: 100px;
 }
 
+.instagram-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.instagram-heading{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  margin-bottom: 2px;
+  font-weight: 800;
+  line-height: normal;
+}
+.instagram-description p{
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 /*  form container style */
 
 .form-container {
